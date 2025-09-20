@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - Bella Vista</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+     <script src="script.js" defer></script>
+              <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <ul class="navbar-list list-style flex">
+                <a href="#" class="nav-logo link-style">Bella Vista</a>
+                <div class="navbar-list-item flex">
+                    <li><a class="link-style nav-link link-active" href="index.html">Home</a></li>
+                    <li><a class="link-style nav-link" href="menu.html">Menu</a></li>
+                    <li><a class="link-style nav-link" href="about.html">About</a></li>
+                    <li><a class="link-style nav-link" href="contact.html">Contact</a></li>
+                </div>
+                <div class="hamburger">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                </div>
+            </ul>
+            <div class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </div>
+        </nav>
+    </header>
+    <section class="section-about">
+        <div class="about-hero">
+            <div class="overlay"></div>
+            <div class="about-text">
+                <h1>Bella Vista</h1>
+                <p>We’re here to assist you. Reach out for reservations, feedback, or queries.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Have a question, feedback, or reservation request? Reach out to us and we’ll respond shortly.</p>
+
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+
+                <div class="working-hours">
+                    <h3>Working Hours</h3>
+                    <table>
+                        <tr>
+                            <td>Monday</td>
+                            <td>10:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>10:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>10:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>10:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>10:00 AM - 11:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>11:00 AM - 11:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>11:00 AM - 9:00 PM</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Bella Vista Restaurant. All Rights Reserved.</p>
+            <p>Designed with ❤️ by Amit Varma</p>
+        </div>
+    </footer>
+</body>
+
+</html>

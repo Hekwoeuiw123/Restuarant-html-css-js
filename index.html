@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Vista - Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <header class="header">
+        <nav class="navbar container">
+            <ul class="navbar-list list-style flex">
+                <a href="#" class="nav-logo link-style">Bella Vista</a>
+                <div class="navbar-list-item flex">
+                    <li><a class="link-style nav-link link-active" href="index.html">Home</a></li>
+                    <li><a class="link-style nav-link" href="menu.html">Menu</a></li>
+                    <li><a class="link-style nav-link" href="about.html">About</a></li>
+                    <li><a class="link-style nav-link" href="contact.html">Contact</a></li>
+                </div>
+                <div class="hamburger">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                </div>
+            </ul>
+            <div class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section flex">
+        <div class="hero">
+            <h2>Welcome to </h2>
+            <h1><span>Bella Vista</span></h1>
+            <p>Experience the bold flavors of tradition, freshly served on every plate.</p>
+            <a href="menu.html" class="btn">View Menu</a>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container about">
+            <h2 data-aos="fade-down" data-aos-delay="100">About <span>Us</span></h2>
+            <span></span>
+            <div class="about-container flex">
+                <div class="about-img">
+                    <img src="./assest/img.png" alt="">
+                </div>
+                <div class="about-content flex">
+                    <p data-aos="fade-right" data-aos-delay="250">At <strong>Bella Vista</strong>, we believe that
+                        dining is more than just a meal — it's an
+                        experience. Our restaurant blends authentic flavors with modern culinary techniques to bring you
+                        dishes that are rich in tradition and full of taste. Whether you're joining us for a family
+                        gathering, a casual lunch, or a special celebration, we are committed to delivering exceptional
+                        food and warm hospitality. Every plate is crafted with passion, using only the freshest
+                        ingredients, to ensure that every bite tells a story of quality and care.
+                    </p>
+                    <a data-aos="fade-up" data-aos-delay="250" href="about.html" class=" btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature-section">
+        <div class="container f-dish">
+            <h2 data-aos="fade-down" data-aos-delay="250">Popular <span> dish</span></h2>
+            <div class="f-container">
+                <div class="f-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="dish-img flex">
+                        <img src="./assest/f-1.png" alt="Pasta">
+                    </div>
+                    <div class="dish-info flex">
+                        <h3>Classic Italian Pasta</h3>
+
+                        <p>Delicious pasta with authentic Italian flavors and fresh herbs.</p>
+                        <div class="pricing flex">
+                            <span class="price">$12.99</span>
+                            <div class="rating"><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <a href="menu.html" class="btn-secondary">See More</a>
+                    </div>
+                </div>
+                <div class="f-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="dish-img flex">
+                        <img src="./assest/f-2.png" alt="Pasta">
+                    </div>
+                    <div class="dish-info flex">
+                        <h3>Cheesy Margherita Pizza</h3>
+
+                        <p>Thin crust pizza with fresh mozzarella, tomatoes, and basil.</p>
+                        <div class="pricing flex">
+                            <span class="price">$15.50</span>
+                            <div class="rating"><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <a href="menu.html" class="btn-secondary">See More</a>
+                    </div>
+                </div>
+                <div class="f-box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="dish-img flex">
+                        <img src="./assest/f-3.png" alt="Pasta">
+                    </div>
+                    <div class="dish-info flex">
+                        <h3>Juicy Grilled Burger</h3>
+
+                        <p>Grilled beef patty, melted cheese, and fresh toppings on a brioche bun.</p>
+                        <div class="pricing flex">
+                            <span class="price">$11.99</span>
+                            <div class="rating"><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <a href="menu.html" class="btn-secondary">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section">
+        <div class="testi container">
+            <h2 data-aos="fade-up" data-aos-delay="250">What our customer <span>say </span></h2>
+            <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial-box">
+                        <p>"Dining at LaBella was an unforgettable experience. From the moment we walked in, the warm
+                            ambiance and friendly staff made us feel welcome. The Spaghetti Carbonara was rich, creamy,
+                            and perfectly seasoned — truly authentic Italian flavor! I also loved the attention to
+                            detail in every dish. The decor was cozy and elegant, making it a perfect place for both
+                            casual dinners and special occasions. The service was prompt and courteous, and we didn’t
+                            feel rushed at all. Highly recommended for anyone who enjoys good food, great vibes, and
+                            top-notch hospitality."</p>
+                        <h4>- Sophia Reed</h4>
+                    </div>
+                    <div class="swiper-slide testimonial-box">
+                        <p>LaBella Restaurant exceeded all my expectations. The moment I entered, I was greeted with a
+                            smile and seated at a beautifully set table. The staff was knowledgeable and suggested an
+                            amazing red wine to pair with my Margherita pizza. The flavors were fresh and the crust was
+                            crisp and flavorful. What impressed me most was how the staff remained attentive without
+                            being intrusive. The ambiance is perfect for a quiet dinner or a celebratory night out. This
+                            restaurant combines great food, excellent service, and a beautiful setting. I’ll definitely
+                            be coming back with friends and family.</p>
+                        <h4>- Liam Torres</h4>
+                    </div>
+                    <div class="swiper-slide testimonial-box">
+                        <p>"LaBella has become my go-to place whenever I crave Italian cuisine. The first time I tried
+                            their Tiramisu, I was blown away — rich, creamy, and perfectly balanced. Every visit since
+                            then has been just as delightful. The food presentation is beautiful and the ingredients
+                            taste incredibly fresh. I also appreciate how clean and well-maintained the restaurant is.
+                            It’s clear that the team truly cares about providing a top-quality experience to their
+                            guests. Whether you’re going for a romantic dinner or a weekend family outing, LaBella
+                            offers a dining experience that’s both comforting and luxurious."</p>
+                        <h4>- Ava Mitchell</h4>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="visit-section" id="visit">
+        <div class="container v-container">
+            <h2 class="section-title" data-aos="fade-down" data-aos-delay="250">Visit us <span>Today</span></h2>
+
+            <div class="visit-grid">
+                <!-- Location Info -->
+                <div class="visit-box location" data-aos="fade-left" data-aos-delay="300">
+                    <h3>Our Location</h3>
+                    <p>123 Gourmet Street,<br> Connaught Place, New Delhi, India</p>
+                    <div class="map-box">
+                        <iframe src="https://www.google.com/maps?q=Connaught+Place,+New+Delhi&output=embed" width="100%"
+                            height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Timings -->
+                <div class="visit-box timing" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday – Friday: 11:00 AM – 10:30 PM</li>
+                        <li>Saturday: 12:00 PM – 11:00 PM</li>
+                        <li>Sunday: 12:00 PM – 9:30 PM</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="visit-box how-contact" data-aos="fade-right" data-aos-delay="300">
+                    <h3>Contact Us</h3>
+                    <p><strong>Phone:</strong> +91 98765 43210</p>
+                    <p><strong>Email:</strong> contact@labella.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 LaBella Restaurant. All Rights Reserved.</p>
+            <p>Designed with ❤️ by Amit Varma</p>
+        </div>
+    </footer>
+</body>
+
+</html>
